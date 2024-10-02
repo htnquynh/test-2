@@ -6,8 +6,8 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div class="header">
     <nav>
-      <a href="/">Go to Home</a>
-      <a href="/about">Go to About</a>
+      <RouterLink to="/">Go to Home</RouterLink>
+      <RouterLink to="/about">Go to About</RouterLink>
     </nav>
   </div>
   <div class="google-map">
