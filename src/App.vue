@@ -8,6 +8,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <nav>
       <RouterLink to="/">Go to Home</RouterLink>
       <RouterLink to="/about">Go to About</RouterLink>
+      <a href="https://hmveng.corehr.hrcloud.hr/hmveng/#/jobs" target="_blank">Go To Job Lising</a>
+      <a href="https://hmveng.corehr.hrcloud.hr/hmveng/#/job-detail/021bfa5a888a690f">Job detail</a>
     </nav>
   </div>
   <div class="google-map">
